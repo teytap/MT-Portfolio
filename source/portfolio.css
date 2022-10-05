@@ -12,8 +12,19 @@ font-family: 'Roboto', sans-serif;*/
 h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
+  line-height: 1.5;
 }
-
+h2 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+}
+p {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.7;
+  line-height: 30px;
+  margin: 40px 0;
+}
 footer {
   text-align: center;
 }
@@ -29,7 +40,7 @@ footer {
   margin: 0;
 }
 .hero h2 {
-  font-family: var(--default-font-family);
+  font-family: var(--heading-font-family);
   font-size: 24px;
   font-weight: normal;
   line-height: 2;
@@ -44,7 +55,35 @@ footer {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-projects {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.project-description {
+  margin: 100px 60px;
+}
 i {
   color: blueviolet;
   font-size: 36px;
+}
+@media (max-width: 768px) {
+  .project-description {
+    text-align: center;
+    padding: 0;
+    margin: 30px 60px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 1;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
 }
