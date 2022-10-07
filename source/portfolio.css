@@ -21,6 +21,9 @@ h2 {
   font-size: 64px;
   font-family: var(--heading-font-family);
 }
+h3 {
+  line-height: 1.5;
+}
 h6 {
   line-height: 30px;
 
