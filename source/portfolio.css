@@ -93,7 +93,9 @@ i {
   margin: 30px 60px;
   border-radius: 15px;
 }
-
+.active {
+  color: var(--secondary-color) !important;
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 48px;
@@ -110,7 +112,7 @@ i {
     padding: 0;
   }
   .about-me-hero {
-    padding: 60px 60px;
+    padding: 10px;
     margin-top: 80px;
     text-align: center;
   }
