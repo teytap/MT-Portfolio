@@ -47,7 +47,8 @@ i {
 }
 i:hover {
   transition: all 200ms ease-in-out;
-  opacity: 0.7;
+
+  color: #5c55e0;
 }
 .hero {
   background: var(--primary-color);
