@@ -9,6 +9,9 @@ font-family: 'Roboto', sans-serif;*/
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
+body {
+  font-family: var(--default-font-family);
+}
 h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
@@ -20,7 +23,7 @@ h2 {
 }
 h6 {
   line-height: 30px;
-  --default-font-family: "Poppins", sans-serif;
+
   margin: 40px 0;
 }
 p {
@@ -29,7 +32,6 @@ p {
   opacity: 0.7;
   line-height: 30px;
   margin: 40px 0;
-  font-family: var(--default-font-family);
 }
 footer {
   text-align: center;
@@ -44,17 +46,16 @@ i {
   padding: 160px 20px;
 }
 .hero p {
-  font-family: var(--default-font-family);
   font-size: 36px;
   font-weight: bold;
   margin: 0;
+  color: #272142;
 }
 .hero h2 {
   font-family: var(--heading-font-family);
   font-size: 24px;
   font-weight: normal;
   line-height: 2;
-  color: #272142;
   margin-bottom: 40px;
 }
 .btn-branding {
@@ -95,13 +96,8 @@ i {
 }
 
 @media (max-width: 768px) {
-  .project-description {
-    text-align: center;
-    padding: 0;
-    margin: 30px 60px;
-  }
   h1 {
-    font-size: 60px;
+    font-size: 48px;
   }
   h2 {
     font-size: 48px;
@@ -109,6 +105,10 @@ i {
   }
   .hero {
     padding: 80px 20px;
+  }
+  .project-description {
+    text-align: center;
+    padding: 0;
   }
   .about-me-hero {
     padding: 100px 60px;
