@@ -26,7 +26,6 @@ h3 {
 }
 h6 {
   line-height: 30px;
-
   margin: 40px 0;
 }
 p {
@@ -47,8 +46,10 @@ i {
 }
 i:hover {
   transition: all 200ms ease-in-out;
-
   color: #5c55e0;
+}
+li {
+  list-style: none;
 }
 .hero {
   background: var(--primary-color);
@@ -115,6 +116,10 @@ i:hover {
 }
 .mail-link:hover {
   color: var(--secondary-color);
+}
+.certificate {
+  background-color: #f9f7fe;
+  padding: 20px 20px;
 }
 @media (max-width: 768px) {
   h1 {
